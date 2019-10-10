@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+
+        header{       
+            background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,45,45,1) 48%, rgba(237,45,45,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ed2d2d', GradientType=1 );
+        }
+
+        body{
+          
+            background: linear-gradient(to right, rgba(113,168,227,1) 0%, rgba(188,207,224,1) 82%, rgba(188,207,224,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71a8e3', endColorstr='#bccfe0', GradientType=1 );
+        }
+
+        h1, h2{
+            color: red;
+            font-family: 'Mansalva', cursive;
+            text-align: center;
+        }
+
+      
+
+        h3{
+            color: rgb(95, 19, 19);
+            font-family: 'Mansalva', cursive;
+        }
+
+        form {
+            /* Sólo para centrar el formulario a la página */
+            margin: 0 auto;
+            width: 400px;
+            /* Para ver el borde del formulario */
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+        form div + div {
+             margin-top: 1em;
+        }
+
+        label {
+            /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+             display: inline-block;
+             width: 90px;
+            text-align: right;
+        }
+
+        input, textarea {
+            /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+            Por defecto, las areas de texto tienen una fuente con monospace */
+            font: 1em sans-serif;
+
+            /* Para darle el mismo tamaño a todos los campos de texto */
+            width: 300px;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            /* Para armonizar el look&feel del borde en los campos de texto */
+            border: 1px solid #999;
+        }
+
+        input:focus, textarea:focus {
+            /* Para dar un pequeño destaque en elementos activos*/
+            border-color: #000;
+        }
+
+        textarea {
+            /* Para alinear campos de texto multilínea con sus labels */
+            vertical-align: top;
+
+            /* Para dar suficiente espacio para escribir texto */
+            height: 6em;
+
+            /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+                No funciona en todos los navegadores */
+            resize: vertical;
+        }
+
+        .button {
+            /* Para posicionar los botones a la misma posición que los campos de texto */
+            padding-left: 90px; /* mismo tamaño a todos los elementos label */
+        }
+
+        button {
+            /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+            entre los labels y sus campos de texto */
+            margin-left: .5em;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header style="text-align: right; font-size: 30px; font-family: 'Montserrat', sans-serif;">
+
+        <a href="#Inicio" style="color: papayawhip; text-decoration: none">INICIO</a>
+        <a href="#Servicios" style="color: papayawhip; text-decoration: none">SEVICIOS</a>
+        <a href="#Musica" style="color: papayawhip; text-decoration: none">MÚSICA</a>
+        <a href="#Contacto"style="color: papayawhip; text-decoration: none">CONTACTO</a>
+       
+    </header>
+    <h1> Bienvenidos Al Mundo de Paco!</h1>
+    <main>
+
+        <P style="text-align: center">
+        <img src="foto1.jpg" alt="foto inicio" height="500px">
+        </p>
+        <p style="color: white">
+            Mi nombre es Paco y soy un gato. Mi humano se llama Agustin y está muy bien educado y responde a todo miau.
+        </p>    
+
+    </main>
+
+    <section>
+        <a id="Servicios"></a>
+        <h2>Servicios</h2>
+        <p style="color: white">
+
+            No muchos realmente. Me gusta dormir, tomar sol, dormir, comer, tirar cosas al piso, dormir, maullar sin pedir nada en particular para confundir, cortos paseos por la terraza para poder volver a dormir y por supuesto, dormir.
+        
+        </p>
+
+            <h3 style="color:rgb(85, 17, 17)(77, 14, 14)"> Random facts</h3>
+
+            <ul style="color: RED">
+
+                <li>Duermo 18 horas al día</li>
+                <li>No como la comida que estuvo en mi plato por más de 4 horas</li>
+                <li>Voy a maullar para pedir comida si te escucho abriendo una lata por más de que no sea de atún</li>
+                <li>Si no me dejás entrar debajo de la sábana mientras dormís, te golpeo en la cara hasta que lo hacés</li>
+                <li>I'm a furry ball of hatred</li>
+
+            </ul>
+
+        <p style="text-align: center">
+        <img src="foto2.jpg" alt="foto de paco" height="500px">
+        <img src="foto3.jpg" alt="foto de paco" height="500px">
+        <img src="foto4.jpg" alt="foto de paco" height="500px">
+        </p>
+
+        <a id="Musica"></a>
+        <h2>Música preferida de Paco!</h2>
+        <p style="text-align: center; font-size: 20px">Paco is a heavy metal kind of cat!</p>
+        <p style="text-align: center">
+        <iframe src="https://open.spotify.com/embed/album/0HKpzK9ZoJ0oVA43E5gewM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </p>
+        <a id="Contacto"></a>
+
+        <h2>Contacto</h2>
+
+        <p style="color: white; text-align: center">
+
+            Soy un gato, no voy a responder. Podés intentar llamarme por mi nombre pero no voy a dar bola. Capaz con comida si pero no contaría con ello
+        
+        </p>
+
+    </section>
+
+    <form action="/my-handling-form-page" method="post">
+        <p>
+
+                ¿Dónde acaricirías a Paco? (piénsalo bien):<br>
+            
+                <input type="checkbox" name="Cuerpo" style="width: 20px;"> Panza<br>
+            
+                <input type="checkbox" name="Cuerpo"  style="width: 20px;"> Cabeza<br>
+
+                <input type="checkbox" name="Cuerpo"  style="width: 20px;"> Cola<br>
+            
+                <input type="checkbox" name="Cuerpo" style="width: 20px;"> Lomo
+            
+              </p>
+
+              <p >
+
+                    ¿Cuánto pesa Paco?<br>
+                
+                    <input type="radio" name="Peso" value="entre1y3" style="width: 20px"> 1kg-3kg<br>
+                
+                    <input type="radio" name="Peso" value="entre4y6" style="width: 20px"> 4kg-6kg<br>
+                
+                    <input type="radio" name="Peso" value="masde6" style="width: 20px"> 6kg+
+                
+                  </p>
+
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name= user_name placeholder="Escribe tu nombre aquí" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name= user_email placeholder="Por ejemplo, paco@gmail.com"/>
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name= user_message placeholder="Escribe tu mensaje para Paco aquí. Si tiene suerte, quizás responda (no)"></textarea>
+        </div>
+        <div class="button">
+                <button type="submit">Send your message</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
